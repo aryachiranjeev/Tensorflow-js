@@ -3,6 +3,7 @@ let k = 10;
 let index = 0;
 let testArray = [];
 let trainArray = [];
+let a=20;
 
 const fs = require("fs");
 const data = require("home/chiranjeev/Desktop/iris.json");
@@ -30,3 +31,5 @@ function formDataset(data) {
 }
 
 formDataset(data);
+
+console.log(a);
